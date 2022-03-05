@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: lightblue; 
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+.body-1{
+    margin:  auto;
+    font-weight: 50px;
+    line-height: 1.5;
+    font-size: 15px;
+    min-width: 10%;
+    border-radius: 15px 15px 0 0;
+}
+
+.body-2{
+    width: 410px;
+    background-color: white;
+    border-radius: 15px;
+    margin:  auto;
+    font-weight: 50px;
+    line-height: 1.5;
+    font-size: 15px;
+    min-width: 10%;
+}
+
+.top{
+    height: 220px;
+    border-radius: 15px 15px 0 0;
+    background-image: url('images/illustration-hero.svg');
+}
+
+h1{
+    color: rgb(50, 50, 104);
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-shadow: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+p{
+    color: rgb(102, 149, 192);
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
+.bottom{
+    margin: 15px 10% 0 ;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 248);
+    padding: 10px;
+
+}
+.music{
+    width: 60%;
+}
+
+.plan{
+    padding-left: 0;
+    padding-right: 20px;
+    width: 110px;
+    float: right;
+    color: rgb(50, 50, 104);
+    font-size: 15px;
+}
+
+.span{
+    color: rgb(102, 149, 192);
+    font-weight: 0;
+}
+
+
+.change{
+    float: right;
+    position: relative;
+    bottom: 35px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+.change:hover{
+    text-decoration: none;
+    color: rgb(102, 149, 192);
+
+}
+
+
+button{
+    text-align: center;
+    margin: 10px 10% 30px ;
+    width: 80%;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(1, 1, 238);
+}
+
+button:hover{
+    background-color: rgb(73, 122, 226) ;
+}
+
+.cancle{
+    display: inline-block;
+    margin-left: 40%;
+    text-decoration: none;
+    color: rgb(102, 149, 192);
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.cancle:hover{
+    color:  rgb(50, 50, 104); 
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+/* footer-section */
+
+.last{
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    padding-top: 15px;
+}
